@@ -8,7 +8,7 @@ function App(){
         <Router>
             <Switch>
                 <Route exact path = " /"Component={Page1}/>
-                <Route exact path = " /"Component={Page1}/>
+                <Route exact path = "/page2"Component={Page2}/>
             </Switch>
         </Router>
     )
